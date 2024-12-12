@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+
+:root {
+    --cor0: #0072F5;
+    --cor1: #2A00F5;
+    --cor2: #0025F5;
+    --cor3: #00BFF5;
+    --cor4: #435FF4;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+}
+
+img {
+    width: 100%;
+}
+
+body{
+    background-color: var(--cor3);
+}
+
+main p {
+    margin: 15 px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1em;
+    font-size: 1em;
+}
+
+header {
+    background-image: url(IMG/sorriso.jpg);
+    background-color: var(--cor0);
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+nav {
+    background-color: var(--cor2);
+    padding: 10px;
+    box-shadow: 0px 7px 7px black;
+}
+
+nav > a {
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 1s;
+
+}
+
+main {
+    background-color: white;
+    padding: 20px;
+    border: 20px;
+    box-shadow: 0px 0px 10px black;
+    margin: auto;
+    max-width: 1000px;
+    min-width: 320px;
+}
+
+header > h1 {
+    color: white;
+    text-shadow: 2px 2px 0px black;
+    margin-bottom: 20px;
+    font-family: var(--fonte-destaque);
+    font-size: 3em;
+}
+
+header > p {
+color: white;
+font-size: 1.2em;
+font-family: var(--fonte-padrao);
+max-width: 500px;
+margin: auto;
+padding-left: 10px;
+padding-right: 10px;
+text-shadow: 2px 2px 0px black;
+}
+
+main > h1 {
+    color: var(--cor1);
+}
+
+footer{
+    background-color: var(--cor2);
+    color: white;
+    text-align: center;
+    font-size: 0.9em;
+    padding: 5px;
+}
+
+footer a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: var(--cor3);
+}
